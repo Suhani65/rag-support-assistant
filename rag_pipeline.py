@@ -51,7 +51,7 @@ db = Chroma.from_documents(docs, embeddings)
 
 retriever = db.as_retriever(
     search_kwargs={"k": 5},
-    search_type="mmr"   # IMPORTANT FIX (removes duplicates)
+    search_type="mmr"   
 )
 
 
