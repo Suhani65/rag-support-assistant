@@ -3,6 +3,7 @@
 I recently completed an internship project where I designed and implemented a Retrieval-Augmented Generation (RAG) system from scratch.
 
 🔍 Key Features:
+
 • PDF knowledge base ingestion
 • Semantic search using embeddings (ChromaDB)
 • Context-aware response generation (FLAN-T5)
